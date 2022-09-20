@@ -1,0 +1,28 @@
+.search-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2rem;
+
+  & .search {
+    width: 85%;
+  }
+
+  & .details-icon {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover,
+    &:active {
+      fill-opacity: 0.6;
+    }
+    &:focus,
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
